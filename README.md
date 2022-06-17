@@ -4,10 +4,10 @@ React Typescript, Tailwindcss, Parcel bundler, eslint, prettier boilerplate proj
 
 ## Features
 
-- [*] HMR, Fast Refresh Parcel
-- [*] Error checking eslint
-- [*] Pretify preconfigured prettier
-- [*] VSCode Auto format and fix on save
+- [x] HMR, Fast Refresh Parcel
+- [x] Error checking eslint
+- [x] Pretify preconfigured prettier
+- [x] VSCode Auto format and fix on save
 
 ## Package Versions
 
