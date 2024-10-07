@@ -5,12 +5,14 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
+    "clean:output": "rimraf dist",
     "start": "parcel",
-    "build": "parcel build"
+    "build": "npm run clean:output && parcel build --no-cache --no-source-maps src/index.html"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/compressor-gzip": "^2.12.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
@@ -22,14 +24,16 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "parcel": "^2.6.0",
+    "parcel": "^2.12.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "process": "^0.11.10",
-    "tailwindcss": "^3.1.3"
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.1.3",
+    "typescript": "^5.6.2"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
