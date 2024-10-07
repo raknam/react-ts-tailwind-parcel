@@ -1,5 +1,7 @@
 # ⚛️ React Typescript Tailwind Parcel 📦
 
+Forked from https://github.com/andreecy/react-ts-tailwind-parcel
+
 A boilerplate of React Typescript, Tailwindcss, with Parcel bundler, eslint, and prettier.
 
 Because we are tired of doing configuration every start a react project 😬
@@ -21,7 +23,7 @@ Because we are tired of doing configuration every start a react project 😬
 ### Installation
 
 ```bash
-npm install
+npx yarn install
 ```
 
 ### Run
@@ -42,11 +44,11 @@ npm run build
 
 ## Package Versions
 
-⚛️ React, ReactDOM v18.2.0
+⚛️ React, ReactDOM v18.3.1
 
 💦 tailwindcss v3.1.3
 
-📦 parcel v2.6.0
+📦 parcel v2.12.0
 
 ✅ eslint v8.17.0
 
